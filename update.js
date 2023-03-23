@@ -1,2 +1,2 @@
-var update = "This is a demo";
+var update = "Beta 2.0";
 document.getElementById("update").innerHTML = update;
