@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Realtime ChatGPT</title>
+  <title>Realtime ChatGPT con Voz</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="chat-container">
-    <div class="chat-header">ChatGPT Realtime</div>
+    <div class="chat-header">ChatGPT Realtime con Voz</div>
     <div class="chat-messages" id="chatMessages"></div>
-    <form id="chatForm" class="chat-form">
-      <input type="text" id="chatInput" placeholder="Escribe un mensaje..." autocomplete="off" required>
-      <button type="submit">Enviar</button>
-    </form>
+    <button id="recordButton">Hablar</button>
+    <p id="status">Presiona "Hablar" para comenzar</p>
   </div>
   <script src="script.js"></script>
 </body>
