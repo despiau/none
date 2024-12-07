@@ -11,52 +11,45 @@ body {
 }
 
 .chat-container {
-  width: 400px;
-  background: #fff;
+  width: 500px;
+  background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  overflow: hidden;
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
 
 .chat-header {
-  background: #0078d7;
-  color: white;
-  padding: 10px;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.chat-messages {
+.chat-box {
   height: 300px;
   overflow-y: auto;
-  padding: 10px;
-  background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
+  padding: 10px;
   margin-bottom: 10px;
+  background: #f9f9f9;
 }
 
-.message {
-  margin: 10px 0;
-}
-
-#recordButton {
+#mic-button {
   padding: 10px 20px;
-  background-color: #0078d7;
+  font-size: 20px;
+  background: #0078d7;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-#recordButton:hover {
-  background-color: #005bb5;
+#mic-button.recording {
+  background: red;
 }
 
-#status {
+#live-transcript {
   margin-top: 10px;
-  font-size: 14px;
-  color: #555;
+  color: gray;
 }
